@@ -1,6 +1,5 @@
 export default interface ITodo{
-    name: string;
-    age: number;
-    address: string;
-    dob: Date;
+    id: number;
+    text: string;
+    done: boolean;
   }
